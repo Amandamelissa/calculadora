@@ -16,11 +16,11 @@ def notas():
     i = valores[-1]
     a = -1
     for valor in valores:
-        print(i , ' = ' , usadas.count(i))
+        if usadas.count(i) > 0:
+            print(i , ' x ' , usadas.count(i))
         if a > -12:
             a = a - 1
             i = valores[a]
         else:
             break
     
-
