@@ -95,6 +95,7 @@ while True:
         primos.primos()
     elif operacao == 10:
         funcoes.troco()
+        funcoes.notas()
     elif operacao == 11:
         print ('tchau!')
         break
