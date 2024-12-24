@@ -4,6 +4,7 @@ import PaEPg
 import pitagoras
 import primos
 import funcoes
+import pi 
 def menu():
     print ('calculadora')
     print ('o quer voce quer fazer?')
@@ -18,7 +19,8 @@ def menu():
     print ('[8] pitagoras')
     print ('[9] checagem de numeros primos')
     print ('[10] calcular troco')
-    print ('[11] sair')
+    print ('[11] calcular pi')
+    print ('[12] sair')
 def soma(): 
     print ('digite 0 para parar')
     numero = 1
@@ -97,6 +99,8 @@ while True:
         funcoes.troco()
         funcoes.notas()
     elif operacao == 11:
+        pi.pi()
+    elif operacao == 12:
         print ('tchau!')
         break
     else:
